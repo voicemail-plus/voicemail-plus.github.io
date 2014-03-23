@@ -243,7 +243,7 @@ section#launch, section#support, section#blog {
   padding: 60px 80px 40px;
 }
 
-section#launch h1, section#support h1 {
+section#launch h1, section#support h1, section#blog h1 {
   font-size: 48px;
   line-height: 48px;
   padding-bottom: 40px;
@@ -251,7 +251,7 @@ section#launch h1, section#support h1 {
   margin-bottom: 40px;
 }
 
-section#support h2 {
+section#support h2, section#blog h2 {
 	font-size: 24px;
 	font-weight: 400;
 	padding-bottom: 20px;
@@ -263,7 +263,11 @@ section#support h3 {
 	padding-bottom: 20px;
 }
 
-section#launch article, section#support article {
+section#blog h2 small {
+	display: block;
+}
+
+section#launch article, section#support article, section#blog article {
   position: relative;
   margin-bottom: 40px;
   padding-left: 80px;
@@ -271,22 +275,27 @@ section#launch article, section#support article {
   padding-bottom: 20px;
 }
 
-section#support article {
+section#support article, section#blog article {
 	padding-left: 0;
 }
 
-section#support ul {
+section#support ul, section#blog ul {
   margin-left: 20px;
   padding-bottom: 20px;
 }
 
-section#support ul li {
+section#support ul li, section#blog ul li {
   padding-left: 8px;
 }
 
-section#launch article:last-child, section#support article:last-child {
+section#launch article:last-child, section#support article:last-child, section#blog article:last-child {
   border: none;
   margin-bottom: 0;
+}
+
+section#blog.post article:last-child {
+	border-bottom: 1px solid rgba(125, 131, 125, 0.2);
+	margin-bottom: 40px;
 }
 
 section#launch article::before {
@@ -307,15 +316,15 @@ section#launch article.us::before {
   background-position: -288px -36px;
 }
 
-section#launch article p, section#support article p {
+section#launch article p, section#support article p, section#blog article p {
   padding-bottom: 20px;
 }
 
-section#launch article p a, section#support article p a, section#support ul li a {
+section#launch article p a, section#support article p a, section#support ul li a, section#blog article p a, section#blog ul li a, section#blog h2 a, section#blog p.return a {
   color: #4cd763;
 }
 
-section#launch article p a:hover, section#support article p a:hover {
+section#launch article p a:hover, section#support article p a:hover, section#blog article p a:hover, section#blog p.return a:hover {
   text-decoration: none;
 }
 
@@ -377,6 +386,13 @@ section#features ul li:nth-child(3)::after {
 section#features ul li b {
   display: block;
   font-size: 18px;
+}
+
+section#blog h1 small {
+	display: block;
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 20px;
 }
 
 /* @group Screenshots */
@@ -480,6 +496,14 @@ pre code {
   padding: 10px 20px;
   letter-spacing: 0;
   border-radius: 3px;
+}
+
+section#blog pre code {
+	text-align: left;
+	color: #7e847d;
+	background-color: #f9f9f9;
+	font: 14px Monaco, Consolas, "Lucida Console", monospace;
+	
 }
 
 dl {
