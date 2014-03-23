@@ -1,0 +1,893 @@
+/* @override 
+	http://voicemail.dev/assets/css/style.css */
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #4cd863;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  font: 18px/28px "Helvetica Neue", Helvetica;
+  -webkit-font-smoothing: antialiased;
+}
+
+section, header, footer {
+  position: relative;
+  max-width: 800px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 84px;
+  line-height: 78px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#uk {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  color: #7e847d;
+  text-shadow: none;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #62b54d;
+}
+
+#uk em {
+  font-style: normal;
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-left: 30px;
+}
+
+#uk em::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 19px;
+  height: 18px;
+  background-image: url(../images/sprite.png);
+  background-position: 0 -17px;
+}
+
+#uk em a {
+  color: #4cd763;
+}
+
+#uk em a:hover {
+  text-decoration: none;
+}
+
+nav {
+  border-bottom: 1px solid #47bb5b;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+nav ul {
+  position: relative;
+  list-style: none;
+  padding: 0 0 0 50%;
+  width: 100%;
+  text-align: right;
+}
+
+nav ul li {
+  font-weight: 500;
+  display: inline-block;
+  padding-right: 30px;
+  margin-left: 6px;
+}
+
+nav ul li:first-child {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  margin-left: 0;
+  padding-right: 0;
+}
+
+nav ul li:last-child {
+  padding-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color ease .3s, opacity ease .3s;
+}
+
+nav ul li:first-child a {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 36px;
+  height: 17px;
+  background-image: url(../images/sprite.png);
+}
+
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+nav ul li:first-child a:hover {
+  opacity: .6;
+}
+
+section {
+  position: relative;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #47bb5b;
+}
+
+section#promo {
+  min-height: 620px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+section#promo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../images/iphone.png);
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 563px;
+  z-index: 0;
+}
+
+section#promo hgroup, section#promo article {
+  position: relative;
+  width: 460px;
+}
+
+section#promo hgroup {
+  padding-bottom: 92px;
+  padding-top: 12px;
+}
+
+section#promo hgroup p {
+  padding-top: 20px;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+section#promo article {
+  padding-bottom: 80px;
+}
+
+section#promo article p {
+  padding-bottom: 40px;
+  font-size: 20px;
+  line-height: 34px;
+  padding-right: 60px;
+}
+
+section article a#app-store {
+  position: relative;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px 20px 22px 62px;
+  background: none;
+  color: #fff;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 1);
+  -webkit-transition: all ease .3s;
+}
+
+section article a#app-store:hover {
+  color: #4cd763;
+  background-color: #fff;
+  text-shadow: none;
+}
+
+section article a#app-store em {
+  font-size: 38px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  margin-top: -16px;
+}
+
+section#launch article a#app-store {
+  box-shadow: inset 0 0 0 2px #4cd763;
+  -moz-box-shadow: inset 0 0 0 2px #4cd763;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+section#launch article a#app-store:hover {
+  background: #4cd763;
+  color: #fff;
+}
+
+section#launch, section#support, section#blog {
+  background-color: #fff;
+  color: #7e847d;
+  text-shadow: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 6px 4px rgba(0, 0, 0, .2);
+  border: none;
+  margin-bottom: 60px;
+  padding: 60px 80px 40px;
+}
+
+section#launch h1, section#support h1 {
+  font-size: 48px;
+  line-height: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(125, 131, 125, 0.2);
+  margin-bottom: 40px;
+}
+
+section#support h2 {
+	font-size: 24px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+section#support h3 {
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+section#launch article, section#support article {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 80px;
+  border-bottom: 1px solid rgba(125, 131, 125, 0.2);
+  padding-bottom: 20px;
+}
+
+section#support article {
+	padding-left: 0;
+}
+
+section#support ul {
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+section#support ul li {
+  padding-left: 8px;
+}
+
+section#launch article:last-child, section#support article:last-child {
+  border: none;
+  margin-bottom: 0;
+}
+
+section#launch article::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  width: 38px;
+  height: 36px;
+  background-image: url(../images/sprite.png);
+}
+
+section#launch article.uk::before {
+  background-position: -288px 0;
+}
+
+section#launch article.us::before {
+  background-position: -288px -36px;
+}
+
+section#launch article p, section#support article p {
+  padding-bottom: 20px;
+}
+
+section#launch article p a, section#support article p a, section#support ul li a {
+  color: #4cd763;
+}
+
+section#launch article p a:hover, section#support article p a:hover {
+  text-decoration: none;
+}
+
+#price {
+  position: relative;
+  border-radius: 5px;
+  background-color: #3eca56;
+  border: 1px solid #48bb5c;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+section#features {
+  padding-bottom: 50px;
+}
+
+section#features ul {
+  padding-top: 40px;
+  text-align: center;
+}
+
+section#features ul li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  margin-right: -2px;
+  padding-right: 12px;
+  padding-top: 80px;
+  padding-left: 12px;
+  font-size: 16px;
+}
+
+section#features ul li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 84px;
+  height: 65px;
+  background-image: url(../images/sprite.png);
+  margin-left: -42px;
+}
+
+section#features ul li:nth-child(1)::after {
+  background-position: -36px 0;
+}
+
+section#features ul li:nth-child(2)::after {
+  background-position: -120px 0;
+}
+
+section#features ul li:nth-child(3)::after {
+  background-position: -204px 0;
+  margin-left: -28px;
+}
+
+section#features ul li b {
+  display: block;
+  font-size: 18px;
+}
+
+/* @group Screenshots */
+
+section#support #screenshots ul {
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+section#support #screenshots ul li {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 284px;
+  margin-right: -46px;  
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+section#screenshots {
+  padding-top: 60px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+section#screenshots ul {
+  width: 800px;
+}
+
+section#screenshots ul li {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  height: 320px;
+  margin-right: -30px;  
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+#screenshots ul li:nth-child(1) {
+  z-index: 0;
+}
+
+#screenshots ul li:nth-child(2) {
+  top: 6px;
+  z-index: 1;
+}
+
+#screenshots ul li:nth-child(3) {
+  top: 12px;
+  z-index: 2;
+}
+
+#screenshots ul li:nth-child(4) {
+  top: 6px;
+  z-index: 1;
+}
+
+#screenshots ul li:nth-child(5) {
+  z-index: 0;
+}
+
+#screenshots ul li img {
+	position: absolute;
+	display: block;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(59, 66, 68, 0.1), 0 1px 7px rgba(59, 66, 68, 0.15);
+}
+
+/* @end */
+
+code {
+  font: 16px Monaco, Consolas, "Lucida Console", monospace;
+  letter-spacing: 2px;
+}
+
+p code, dl code {
+  background-color: #fcf8e0;
+  padding: 4px 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
+pre {
+  padding: 10px 0 30px;
+  margin: 0;
+}
+
+pre code {
+  font: 16px/24px "Helvetica Neue", Helvetica;
+  display: inline-block;
+  background-color: #515d6d;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  letter-spacing: 0;
+  border-radius: 3px;
+}
+
+dl {
+  overflow: hidden;
+  line-height: 38px;
+}
+
+dl dt {
+  width: 120px;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: left 4px;
+  clear: both;
+  padding-left: 44px;
+}
+
+dl dd {
+  float: left;
+}
+
+dl dd span {
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+dl dd span.no {
+  color: #ddd;
+  text-decoration: line-through;
+}
+
+dl dt.three {
+  background-image: url(../images/carriers/3.png);
+}
+
+dl dt.ee {
+  background-image: url(../images/carriers/ee.png);
+}
+
+dl dt.giffgaff {
+  background-image: url(../images/carriers/giffgaff.png);
+}
+
+dl dt.o2 {
+  background-image: url(../images/carriers/o2.png);
+}
+
+dl dt.orange {
+  background-image: url(../images/carriers/orange.png);
+}
+
+dl dt.talkmobile {
+  background-image: url(../images/carriers/talkmobile.png);
+}
+
+dl dt.tmobile {
+  background-image: url(../images/carriers/tmobile.png);
+}
+
+dl dt.vodafone {
+  background-image: url(../images/carriers/vodafone.png);
+}
+
+footer {
+  padding-bottom: 60px;
+  padding-top: 40px;
+  text-align: center;
+  border-top: 1px solid #47bb5b;
+}
+
+section#features + footer {
+  border-top: none;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer p a {
+  color: #fff;
+  font-weight: bold;
+}
+
+footer p span.press a {
+  font-weight: 400;
+}
+
+footer p a:hover {
+  text-decoration: none;
+}
+
+::selection {
+	background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 4px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  #uk em::after, nav ul li:first-child a, section#features ul li::after, section#launch article::before {
+    background-image: url(../images/sprite@2x.png);
+    background-size: 326px 72px;
+  }
+  
+  section#promo::before {
+    background-image: url(../images/iphone@2x.png);
+    background-size: 270px 563px;
+  }
+  
+  dl dt.three {
+    background-image: url(../images/carriers/3@2x.png);
+    background-size: 29px 29px;
+  }
+  
+  dl dt.ee {
+    background-image: url(../images/carriers/ee@2x.png);
+    background-size: 29px 29px;
+  }
+  
+  dl dt.giffgaff {
+    background-image: url(../images/carriers/giffgaff@2x.png);
+    background-size: 29px 29px;
+  }
+  
+  dl dt.o2 {
+    background-image: url(../images/carriers/o2@2x.png);
+    background-size: 29px 29px;
+  }
+  
+  dl dt.orange {
+    background-image: url(../images/carriers/orange@2x.png);
+    background-size: 29px 29px;
+  }
+  
+  dl dt.talkmobile {
+    background-image: url(../images/carriers/talkmobile@2x.png);
+    background-size: 29px 29px;
+  }
+  
+  dl dt.tmobile {
+    background-image: url(../images/carriers/tmobile@2x.png);
+    background-size: 29px 29px;
+  }
+  
+  dl dt.vodafone {
+    background-image: url(../images/carriers/vodafone@2x.png);
+    background-size: 29px 29px;
+  }
+
+}
+
+@media only screen and (max-width : 1010px) {
+
+  section#screenshots {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    height: 410px;
+  }
+  
+  section#screenshots ul {
+    position: absolute;
+    margin-left: -400px;
+    left: 50%;
+  }
+  
+}
+
+@media only screen and (max-width : 980px) {
+
+  nav ul {
+    text-align: left;
+  }
+
+  nav ul {
+    padding-left: 70px;
+  }
+  
+  section#promo {
+    padding-right: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    min-height: 0;
+  }
+  
+  section#promo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 270px;
+    height: 563px;
+    z-index: 0;
+    background: -webkit-linear-gradient(top, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone.png) no-repeat;
+    background: -moz-linear-gradient(top, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone.png) no-repeat;
+    background: -ms-linear-gradient(top, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone.png) no-repeat;
+    background: linear-gradient(to bottom, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone.png) no-repeat;
+    opacity: .2;
+  }
+  
+  section#promo hgroup, section#promo article {
+    width: auto;
+    padding-right: 180px;
+  }
+  
+  section#promo article {
+    padding-bottom: 60px;
+  }
+  
+  section#promo hgroup {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  
+  section#promo article p {
+    padding-right: 0;
+  }
+  
+  hgroup h1 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  
+  section#launch, section#support {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+  }
+  
+  section#launch hgroup h1, section#support hgroup h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    
+    section#promo::before {
+      background: -webkit-linear-gradient(top, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone@2x.png) no-repeat;
+      background: -moz-linear-gradient(top, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone@2x.png) no-repeat;
+      background: -ms-linear-gradient(top, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone@2x.png) no-repeat;
+      background: linear-gradient(to bottom, rgba(118, 206, 99, 0) 0%, #4cd763 75%), url(../images/iphone@2x.png) no-repeat;
+      background-size: 100%, 270px 563px;
+    }
+  
+  }
+
+}
+
+@media only screen and (max-width : 860px) {
+
+  article a#app-store span {
+    display: none;
+  }
+  
+  section#features {
+    padding-bottom: 20px;
+  }
+  
+  section#features ul li {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+}
+
+@media only screen and (max-width : 760px) {
+
+  section#promo article {
+    padding-bottom: 40px;
+  }
+
+  #price {
+    margin-right: 0;
+  }
+
+}
+
+@media only screen and (max-width : 620px) {
+
+  nav {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  nav ul {
+    padding-top: 40px;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    margin-left: 0;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  
+  nav ul li:last-child {
+    padding-right: 10px;
+  }
+  
+  nav ul li:first-child {
+    left: 50%;
+    margin-left: -28px;
+  }
+  
+  nav ul li span {
+    display: none;
+  }
+
+  section#promo hgroup, section#promo article {
+    padding-right: 0;
+  }
+  
+  section#promo::before {
+    opacity: .1;
+  }
+  
+  section ul li {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+  
+  section#features ul li {
+    margin-bottom: 0;
+  }
+  
+  section ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  dl {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  dl dt {
+    float: none;
+    display: inline-block;
+    width: auto;
+  }
+  
+  dl dd {
+    float: none;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width : 420px) {
+
+  body {
+    text-align: center;
+  }
+  
+  section#promo {
+    padding-top: 280px;
+  }
+
+  section#promo::before {
+    left: 50%;
+    margin-left: -135px;
+    top: 0;
+    opacity: .8;
+  }
+  
+  section ul li::after {
+    left: 50%;
+    top: 0;
+    margin-left: -42px;
+  }
+  
+  section ul li:nth-child(3)::after {
+    left: 50%;
+    top: 0;
+    margin-left: -32px;
+  }
+  
+  #uk em {
+    padding-left: 0;
+    padding-top: 24px;
+  }
+  
+  #uk em::after {
+    left: 50%;
+    top: 0;
+    margin-left: -9px;
+  }
+  
+  section#launch article {
+    padding-left: 0;
+    font-size: 16px;
+    padding-top: 54px;
+  }
+  
+  section#support article {
+  	font-size: 16px;
+  }
+  
+  section#launch article::before {
+    left: 50%;
+    top: 0;
+    margin-left: -19px;
+  }
+
+}

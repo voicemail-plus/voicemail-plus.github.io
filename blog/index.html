@@ -1,0 +1,15 @@
+---
+layout: master
+title: Blog
+---
+
+<section id="blog">
+  <hgroup>
+    <h1>Blog Posts</h1>
+  </hgroup>
+  <ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

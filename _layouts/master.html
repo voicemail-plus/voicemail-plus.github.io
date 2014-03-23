@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+  
+  <link href="/assets/favicon.ico" rel="shortcut icon">
+  <link href="/assets/apple-touch-icon.png" rel="apple-touch-icon">
+  
+  <meta name="apple-itunes-app" content="app-id=711526309">
+    
+  <meta property="og:site_name" content="Voicemail+">
+  <meta property="og:title" content="The best voicemail experience on iPhone.">
+  <meta property="og:image" content="http://voicemailpl.us/images/og.png">
+  <meta property="og:url" content="http://voicemailpl.us">
+  <meta property="og:type" content="website">
+  
+  <title>Voicemail&#43;{% if page.title %} {{ page.title }}{% endif %}</title>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-46405055-1', 'voicemailpl.us');
+    ga('send', 'pageview');
+  
+  </script>
+  
+</head>
+
+<body>
+
+  <div id="uk"><em>Launching in the UK first. Rolling out worldwide later on. <a href="/launch.html">Read more</a></em></div>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Voicemail+</a></li>
+        <li><a href="https://itunes.apple.com/gb/app/voicemail+/id711526309?mt=8">App Store</a></li>
+        <li><a href="/support.html">Support<span> &amp; FAQs</span></a></li>
+        <li><a href="/blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  {{ content }}
+
+  <footer>
+    <p>Created by <a href="http://twitter.com/reddavis">@reddavis</a> &amp; <a href="http://twitter.com/dizzyup">@dizzyup</a> &bullet; <span class="press"><a href="/press.html">Press</a></span></p>
+  </footer>
+
+</body>
+
+</html>
