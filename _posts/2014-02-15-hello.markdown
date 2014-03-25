@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Hello"
+date:   2014-02-15 14:00:00
+---
+
+It's been a long time coming but I'm proud to finally launch Voicemail+. Hector and I started Voicemail+ roughly just over a year ago, though it looked a lot different back then...
+
+![Voicemail+ iOS6]({{ site.url }}/assets/images/posts/hello/pipedreamios6.png)
+
+We built Voicemail+ to scratch our own itch, as they say. We had recently switched from an O2 iPhone contract, which came with visual voicemail to SIM only contract with 3 that didn't. It sucked. Looking around in the app store the only options were pretty ugly, had too many features and complex pricing plans.
+
+So here we are; Voicemail+ offers a no-nonsense approach to visual voicemail, built to stay out of your way.
+
+[Go download it!](http://voicemailpl.us/app)
+
+![Voicemail+ iOS7]({{ site.url }}/assets/images/posts/hello/ios7.png)
