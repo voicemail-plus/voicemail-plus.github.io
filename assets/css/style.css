@@ -423,6 +423,10 @@ section#blog h1 small {
 	padding-top: 20px;
 }
 
+section#blog img {
+  max-width: 100%;
+}
+
 /* @group Screenshots */
 
 section#support #screenshots ul {
