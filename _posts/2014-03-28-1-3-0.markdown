@@ -10,4 +10,6 @@ The most heavily requested feature since launch has been custom greetings. A gre
 
 You can create your own greeting, or use one of our default greetings, by heading over to settings and tapping greetings.
 
+[Click here to get Voicemail+](http://voicemailpl.us/app)
+
 ![Greetings list]({{ site.url }}/assets/images/posts/1-3-0/greetings.png)
