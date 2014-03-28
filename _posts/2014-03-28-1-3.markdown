@@ -8,6 +8,6 @@ Today we released a new version of Voicemail+. This is our first major update si
 
 You can create your own greeting, or use one of our default greetings, by heading over to settings and tapping greetings.
 
-[Click here to get Voicemail+](http://voicemailpl.us/app)
+[Click here to get Voicemail+](https://itunes.apple.com/gb/app/voicemail+/id711526309?mt=8)
 
 ![Greetings list]({{ site.url }}/assets/images/posts/1-3-0/greetings.png)
