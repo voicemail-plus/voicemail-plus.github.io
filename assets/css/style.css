@@ -288,6 +288,18 @@ section#support ul li, section#blog ul li {
   padding-left: 8px;
 }
 
+section#support ul li span.new {
+  background-color: #4cd763;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 6px;
+  text-transform: uppercase;
+  margin-right: 2px;
+  position: relative;
+  top: -2px;
+}
+
 section#launch article:last-child, section#support article:last-child, section#blog article:last-child {
   border: none;
   margin-bottom: 0;
