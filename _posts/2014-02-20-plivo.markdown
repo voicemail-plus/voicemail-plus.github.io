@@ -4,6 +4,6 @@ title:  "Plivo Case Study"
 date:   2014-02-20 14:00:00
 ---
 
-Have friends over at [Plivo](https://plivo.com) have written a little case study about how we use their service to power Voicemail+.
+Our friends over at [Plivo](https://plivo.com) have written a little case study about how we use their service to power Voicemail+.
 
 [Go check it out!](https://plivo.com/blog/voicemail-a-visual-voicemail-app-built-with-simplicity-and-powered-by-plivo/)
